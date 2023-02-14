@@ -4,15 +4,24 @@ body {
 	margin: 0 auto;
 	 font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
 }
+a:link {
+     color: #000000;
+}
+a:visited {
+     color: #000;
+}
+a:hover, a:active, a:focus { 
+     text-decoration: underline;
+}
 .homePage {
-	background: #222222;
+	background: #9D62E3;
 }
 .container {
 	width: 960px;
 	margin: 0 auto;
 }
 .header {
-	background: #AAAAAA;
+	background: #4771FF;
 	text-align: center;
 	margin: 0px;
 	padding: 5;
@@ -22,7 +31,7 @@ body {
 	
 }
 .nav {
-	background: #BBBBBB;
+	background: #1CE8FF;
 	margin: 0px;
 	padding: 5;
 	float: left;
@@ -31,14 +40,14 @@ body {
 	text-align: center;
 }
 .content {
-	background: #EEEEEE;
+	background: #45FF8C;
 	margin: 0px;
 	float: left;
 	width: 100%;
 	text-align: center;
 }
 .footer {
-	background: #777777;
+	background: #A2FF5E;
 	margin: 0px;
 	float: left;
 	width: 100%;
